@@ -26,7 +26,7 @@ def singleton(cls):
     return getInstance
 
 #--------------------------------------------------------------------#
-#Method 3 : A decorator
+#Method 3 : A decorator returning class
 def singleton(cls):
 
     class Singleton(cls):
